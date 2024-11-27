@@ -5,6 +5,7 @@ from sklearn.metrics import roc_auc_score
 import os
 
 # Define the output directory and the list of peptides
+# This is a comment
 output_directory = (
     "/net/mimer/mnt/tank/projects2/emison/AUC/output"  # Set your output directory here
 )
