@@ -1,0 +1,97 @@
+/var/lib/slurm/slurmd/job01724/slurm_script: line 21: module: command not found
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: Job step's --cpus-per-task value exceeds that of job (4 > 1). Job step may never run.
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted
+srun: error: Unable to create step for job 1724: More processors requested than permitted

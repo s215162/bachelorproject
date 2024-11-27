@@ -1,0 +1,19 @@
+2024-11-14 08:16:13,260 - INFO - Loading and filtering dataset for peptide YLQPRTFLL
+2024-11-14 08:16:13,306 - INFO - Processing dataset for peptide YLQPRTFLL with weight TCRa
+2024-11-14 08:16:13,307 - INFO - Processing rows 0 to 25 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:17:48,599 - INFO - Processing rows 25 to 50 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:19:22,077 - INFO - Processing rows 50 to 75 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:21:00,160 - INFO - Processing rows 75 to 100 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:22:34,565 - INFO - Processing rows 100 to 125 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:24:07,892 - INFO - Processing rows 125 to 150 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:25:42,466 - INFO - Processing rows 150 to 175 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:27:16,556 - INFO - Processing rows 175 to 200 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:28:46,887 - INFO - Processing rows 200 to 225 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:30:18,146 - INFO - Processing rows 225 to 250 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:31:47,042 - INFO - Processing rows 250 to 275 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:33:17,485 - INFO - Processing rows 275 to 300 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:34:47,514 - INFO - Processing rows 300 to 325 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:36:14,659 - INFO - Processing rows 325 to 350 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:37:46,149 - INFO - Processing rows 350 to 375 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:39:19,615 - INFO - Processing rows 375 to 399 for binders, peptide YLQPRTFLL, weight TCRa
+2024-11-14 08:41:10,040 - INFO - Saved to /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/sequence_summed_vectors_binders_YLQPRTFLL_TCRa.csv

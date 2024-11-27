@@ -1,0 +1,125 @@
+2024-11-13 19:17:19,798 - INFO - Loading and filtering dataset for peptide ELAGIGILTV
+2024-11-13 19:17:20,226 - INFO - Processing dataset for peptide ELAGIGILTV with weight CDR3a
+2024-11-13 19:17:20,228 - INFO - Processing rows 0 to 25 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:17:48,325 - INFO - Processing rows 25 to 50 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:18:16,114 - INFO - Processing rows 50 to 75 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:18:41,962 - INFO - Processing rows 75 to 100 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:19:11,057 - INFO - Processing rows 100 to 125 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:19:37,970 - INFO - Processing rows 125 to 150 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:20:05,210 - INFO - Processing rows 150 to 175 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:20:35,561 - INFO - Processing rows 175 to 200 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:21:07,343 - INFO - Processing rows 200 to 225 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:21:34,668 - INFO - Processing rows 225 to 250 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:22:02,023 - INFO - Processing rows 250 to 275 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:22:32,285 - INFO - Processing rows 275 to 300 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:23:07,613 - INFO - Processing rows 300 to 325 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:23:33,282 - INFO - Processing rows 325 to 350 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:24:02,103 - INFO - Processing rows 350 to 375 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:24:27,630 - INFO - Processing rows 375 to 400 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:24:59,493 - INFO - Processing rows 400 to 425 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:25:28,254 - INFO - Processing rows 425 to 450 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:25:57,108 - INFO - Processing rows 450 to 475 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:26:25,882 - INFO - Processing rows 475 to 500 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:26:54,661 - INFO - Processing rows 500 to 525 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:27:28,434 - INFO - Processing rows 525 to 550 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:27:55,809 - INFO - Processing rows 550 to 575 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:28:26,275 - INFO - Processing rows 575 to 600 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:28:57,649 - INFO - Processing rows 600 to 625 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:29:26,407 - INFO - Processing rows 625 to 650 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:29:51,979 - INFO - Processing rows 650 to 675 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:30:19,382 - INFO - Processing rows 675 to 700 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:30:49,705 - INFO - Processing rows 700 to 725 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:31:24,941 - INFO - Processing rows 725 to 750 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:31:53,686 - INFO - Processing rows 750 to 775 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:32:21,149 - INFO - Processing rows 775 to 800 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:32:48,321 - INFO - Processing rows 800 to 825 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:33:15,556 - INFO - Processing rows 825 to 850 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:33:40,776 - INFO - Processing rows 850 to 875 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:34:09,212 - INFO - Processing rows 875 to 900 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:34:45,704 - INFO - Processing rows 900 to 925 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:35:12,954 - INFO - Processing rows 925 to 950 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:35:40,152 - INFO - Processing rows 950 to 975 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:36:09,045 - INFO - Processing rows 975 to 1000 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:36:37,745 - INFO - Processing rows 1000 to 1025 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:37:06,684 - INFO - Processing rows 1025 to 1050 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:37:36,965 - INFO - Processing rows 1050 to 1075 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:38:05,536 - INFO - Processing rows 1075 to 1100 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:38:35,559 - INFO - Processing rows 1100 to 1125 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:39:09,035 - INFO - Processing rows 1125 to 1150 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:39:35,849 - INFO - Processing rows 1150 to 1175 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:40:07,497 - INFO - Processing rows 1175 to 1200 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:40:39,397 - INFO - Processing rows 1200 to 1225 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:41:13,041 - INFO - Processing rows 1225 to 1250 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:41:41,978 - INFO - Processing rows 1250 to 1275 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:42:15,646 - INFO - Processing rows 1275 to 1300 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:42:44,523 - INFO - Processing rows 1300 to 1325 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:43:13,309 - INFO - Processing rows 1325 to 1350 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:43:45,112 - INFO - Processing rows 1350 to 1375 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:44:22,058 - INFO - Processing rows 1375 to 1400 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:44:46,422 - INFO - Processing rows 1400 to 1425 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:45:13,854 - INFO - Processing rows 1425 to 1450 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:45:41,188 - INFO - Processing rows 1450 to 1475 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:46:05,540 - INFO - Processing rows 1475 to 1500 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:46:28,632 - INFO - Processing rows 1500 to 1525 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:46:54,891 - INFO - Processing rows 1525 to 1550 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:47:19,214 - INFO - Processing rows 1550 to 1575 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:47:46,500 - INFO - Processing rows 1575 to 1600 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:48:15,517 - INFO - Processing rows 1600 to 1625 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:48:41,488 - INFO - Processing rows 1625 to 1650 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:49:13,773 - INFO - Processing rows 1650 to 1675 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:49:38,235 - INFO - Processing rows 1675 to 1700 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:50:10,801 - INFO - Processing rows 1700 to 1725 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:50:36,699 - INFO - Processing rows 1725 to 1750 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:51:02,762 - INFO - Processing rows 1750 to 1775 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:51:31,557 - INFO - Processing rows 1775 to 1800 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:52:00,503 - INFO - Processing rows 1800 to 1825 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:52:26,394 - INFO - Processing rows 1825 to 1850 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:52:52,444 - INFO - Processing rows 1850 to 1875 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:53:22,646 - INFO - Processing rows 1875 to 1900 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:53:48,717 - INFO - Processing rows 1900 to 1925 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:54:18,949 - INFO - Processing rows 1925 to 1950 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:54:43,330 - INFO - Processing rows 1950 to 1975 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:55:12,179 - INFO - Processing rows 1975 to 2000 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:55:44,778 - INFO - Processing rows 2000 to 2025 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:56:14,992 - INFO - Processing rows 2025 to 2050 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:56:43,964 - INFO - Processing rows 2050 to 2075 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:57:11,309 - INFO - Processing rows 2075 to 2100 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:57:37,341 - INFO - Processing rows 2100 to 2125 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:58:03,289 - INFO - Processing rows 2125 to 2150 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:58:33,591 - INFO - Processing rows 2150 to 2175 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:59:05,691 - INFO - Processing rows 2175 to 2200 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:59:33,185 - INFO - Processing rows 2200 to 2225 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 19:59:59,265 - INFO - Processing rows 2225 to 2250 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:00:25,484 - INFO - Processing rows 2250 to 2275 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:00:54,051 - INFO - Processing rows 2275 to 2300 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:01:22,616 - INFO - Processing rows 2300 to 2325 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:01:55,869 - INFO - Processing rows 2325 to 2350 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:02:19,888 - INFO - Processing rows 2350 to 2375 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:02:51,692 - INFO - Processing rows 2375 to 2400 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:03:20,264 - INFO - Processing rows 2400 to 2425 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:03:52,124 - INFO - Processing rows 2425 to 2450 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:04:22,241 - INFO - Processing rows 2450 to 2475 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:04:46,731 - INFO - Processing rows 2475 to 2500 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:05:09,677 - INFO - Processing rows 2500 to 2525 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:05:35,695 - INFO - Processing rows 2525 to 2550 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:06:04,478 - INFO - Processing rows 2550 to 2575 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:06:36,509 - INFO - Processing rows 2575 to 2600 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:07:02,172 - INFO - Processing rows 2600 to 2625 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:07:26,221 - INFO - Processing rows 2625 to 2650 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:07:51,892 - INFO - Processing rows 2650 to 2675 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:08:19,094 - INFO - Processing rows 2675 to 2700 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:08:52,602 - INFO - Processing rows 2700 to 2725 for swaps, peptide ELAGIGILTV, weight CDR3a
+2024-11-13 20:09:18,695 - INFO - Processing rows 2725 to 2742 for swaps, peptide ELAGIGILTV, weight CDR3a
+Traceback (most recent call last):
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_swaps.py", line 90, in <module>
+    process_sequences(df_filtered, peptide, weight, "swaps")
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_swaps.py", line 82, in process_sequences
+    output_df.insert(0, "raw_index", raw_indexes)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5171, in insert
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (2742) does not match length of index (17)

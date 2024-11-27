@@ -1,0 +1,30 @@
+2024-11-13 19:13:17,505 - INFO - Loading and filtering dataset for peptide LLWNGPMAV
+2024-11-13 19:13:17,594 - INFO - Processing dataset for peptide LLWNGPMAV with weight CDR3b
+2024-11-13 19:13:17,597 - INFO - Processing rows 0 to 25 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:13:47,634 - INFO - Processing rows 25 to 50 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:14:17,590 - INFO - Processing rows 50 to 75 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:14:49,843 - INFO - Processing rows 75 to 100 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:15:22,433 - INFO - Processing rows 100 to 125 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:15:52,719 - INFO - Processing rows 125 to 150 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:16:22,838 - INFO - Processing rows 150 to 175 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:16:53,062 - INFO - Processing rows 175 to 200 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:17:25,241 - INFO - Processing rows 200 to 225 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:17:53,903 - INFO - Processing rows 225 to 250 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:18:29,704 - INFO - Processing rows 250 to 275 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:19:03,502 - INFO - Processing rows 275 to 300 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:19:35,516 - INFO - Processing rows 300 to 325 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:20:07,636 - INFO - Processing rows 325 to 350 for binders, peptide LLWNGPMAV, weight CDR3b
+2024-11-13 19:20:39,974 - INFO - Processing rows 350 to 371 for binders, peptide LLWNGPMAV, weight CDR3b
+Traceback (most recent call last):
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py", line 90, in <module>
+    process_sequences(df_filtered, peptide, weight, "binders")
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py", line 82, in process_sequences
+    output_df.insert(0, "raw_index", raw_indexes)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5171, in insert
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (371) does not match length of index (21)

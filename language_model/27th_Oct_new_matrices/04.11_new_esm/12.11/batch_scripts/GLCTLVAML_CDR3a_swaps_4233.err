@@ -1,0 +1,40 @@
+2024-11-14 08:05:34,393 - INFO - Loading and filtering dataset for peptide GLCTLVAML
+2024-11-14 08:05:35,015 - INFO - Processing dataset for peptide GLCTLVAML with weight CDR3a
+2024-11-14 08:05:35,017 - INFO - Processing rows 0 to 25 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:05:48,678 - INFO - Processing rows 25 to 50 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:06:06,657 - INFO - Processing rows 50 to 75 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:06:25,574 - INFO - Processing rows 75 to 100 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:06:42,472 - INFO - Processing rows 100 to 125 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:06:57,659 - INFO - Processing rows 125 to 150 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:07:16,634 - INFO - Processing rows 150 to 175 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:07:31,682 - INFO - Processing rows 175 to 200 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:07:46,611 - INFO - Processing rows 200 to 225 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:08:02,192 - INFO - Processing rows 225 to 250 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:08:18,742 - INFO - Processing rows 250 to 275 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:08:31,237 - INFO - Processing rows 275 to 300 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:08:46,117 - INFO - Processing rows 300 to 325 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:09:01,447 - INFO - Processing rows 325 to 350 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:09:14,746 - INFO - Processing rows 350 to 375 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:09:26,680 - INFO - Processing rows 375 to 400 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:09:44,089 - INFO - Processing rows 400 to 425 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:09:57,102 - INFO - Processing rows 425 to 450 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:10:11,054 - INFO - Processing rows 450 to 475 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:10:23,796 - INFO - Processing rows 475 to 500 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:10:37,819 - INFO - Processing rows 500 to 525 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:10:50,701 - INFO - Processing rows 525 to 550 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:11:06,501 - INFO - Processing rows 550 to 575 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:11:19,710 - INFO - Processing rows 575 to 600 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:11:33,540 - INFO - Processing rows 600 to 625 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:11:46,756 - INFO - Processing rows 625 to 650 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:12:00,278 - INFO - Processing rows 650 to 675 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:12:14,422 - INFO - Processing rows 675 to 700 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:12:27,609 - INFO - Processing rows 700 to 725 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:12:41,904 - INFO - Processing rows 725 to 750 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:12:55,405 - INFO - Processing rows 750 to 775 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:13:08,142 - INFO - Processing rows 775 to 800 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:13:20,798 - INFO - Processing rows 800 to 825 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:13:33,037 - INFO - Processing rows 825 to 850 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:13:45,609 - INFO - Processing rows 850 to 875 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:14:00,463 - INFO - Processing rows 875 to 900 for swaps, peptide GLCTLVAML, weight CDR3a
+2024-11-14 08:14:13,463 - INFO - Processing rows 900 to 925 for swaps, peptide GLCTLVAML, weight CDR3a
+slurmstepd-compute02: error: *** JOB 4233 ON compute02 CANCELLED AT 2024-11-14T08:14:21 ***

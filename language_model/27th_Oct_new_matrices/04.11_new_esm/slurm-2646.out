@@ -1,0 +1,22 @@
+sbatch: error: Unable to open file  
+/var/lib/slurm/slurmd/job02646/slurm_script: line 39: --output=ELAGIGILTV_CDR1a_swaps_%j.out: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 40: --error=ELAGIGILTV_CDR1a_swaps_%j.err: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 41: --ntasks=1: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 42: --time=24:00:00: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 43: --gres=gpu:1: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 44: --partition=gpu: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 45: --constraint=gpu: command not found
+/var/lib/slurm/slurmd/job02646/slurm_script: line 46: --mem=16G: command not found
+2024-11-11 15:33:40,636 - INFO - Loading and filtering dataset for peptide ELAGIGILTV
+2024-11-11 15:33:41,228 - INFO - Processing dataset for peptide ELAGIGILTV with weight CDR1a
+2024-11-11 15:33:41,231 - INFO - Processing rows 0 to 25 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:33:53,632 - INFO - Processing rows 25 to 50 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:34:06,040 - INFO - Processing rows 50 to 75 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:34:18,479 - INFO - Processing rows 75 to 100 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:34:30,845 - INFO - Processing rows 100 to 125 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:34:43,196 - INFO - Processing rows 125 to 150 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:34:55,578 - INFO - Processing rows 150 to 175 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:35:07,949 - INFO - Processing rows 175 to 200 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:35:20,304 - INFO - Processing rows 200 to 225 for data, peptide ELAGIGILTV, weight CDR1a
+2024-11-11 15:35:32,669 - INFO - Processing rows 225 to 250 for data, peptide ELAGIGILTV, weight CDR1a
+slurmstepd-node03: error: *** JOB 2646 ON node03 CANCELLED AT 2024-11-11T15:35:33 ***

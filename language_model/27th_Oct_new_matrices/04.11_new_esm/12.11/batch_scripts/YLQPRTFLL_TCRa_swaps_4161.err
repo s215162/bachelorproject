@@ -1,0 +1,5 @@
+2024-11-13 19:38:41,217 - INFO - Loading and filtering dataset for peptide YLQPRTFLL
+2024-11-13 19:38:41,621 - INFO - Processing dataset for peptide YLQPRTFLL with weight TCRa
+2024-11-13 19:38:41,623 - INFO - Processing rows 0 to 25 for swaps, peptide YLQPRTFLL, weight TCRa
+2024-11-13 19:40:42,924 - INFO - Processing rows 25 to 50 for swaps, peptide YLQPRTFLL, weight TCRa
+/var/lib/slurm/slurmd/job04161/slurm_script: line 14: 3098817 Killed                  python3 /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_swaps.py YLQPRTFLL TCRa

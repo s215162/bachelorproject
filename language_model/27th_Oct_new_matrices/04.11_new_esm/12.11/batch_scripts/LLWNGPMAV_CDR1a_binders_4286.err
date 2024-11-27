@@ -1,0 +1,18 @@
+2024-11-14 08:15:26,233 - INFO - Loading and filtering dataset for peptide LLWNGPMAV
+2024-11-14 08:15:26,329 - INFO - Processing dataset for peptide LLWNGPMAV with weight CDR1a
+2024-11-14 08:15:26,331 - INFO - Processing rows 0 to 25 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:15:31,598 - INFO - Processing rows 25 to 50 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:15:36,964 - INFO - Processing rows 50 to 75 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:15:41,939 - INFO - Processing rows 75 to 100 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:15:47,073 - INFO - Processing rows 100 to 125 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:15:51,576 - INFO - Processing rows 125 to 150 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:15:56,860 - INFO - Processing rows 150 to 175 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:01,605 - INFO - Processing rows 175 to 200 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:06,801 - INFO - Processing rows 200 to 225 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:11,440 - INFO - Processing rows 225 to 250 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:16,026 - INFO - Processing rows 250 to 275 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:21,052 - INFO - Processing rows 275 to 300 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:26,230 - INFO - Processing rows 300 to 325 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:30,149 - INFO - Processing rows 325 to 350 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:16:34,216 - INFO - Processing rows 350 to 371 for binders, peptide LLWNGPMAV, weight CDR1a
+2024-11-14 08:18:23,987 - INFO - Saved to /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/sequence_summed_vectors_binders_LLWNGPMAV_CDR1a.csv

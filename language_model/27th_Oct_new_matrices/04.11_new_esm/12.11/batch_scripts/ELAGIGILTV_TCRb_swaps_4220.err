@@ -1,0 +1,7 @@
+2024-11-14 08:00:49,178 - INFO - Loading and filtering dataset for peptide ELAGIGILTV
+2024-11-14 08:00:49,778 - INFO - Processing dataset for peptide ELAGIGILTV with weight TCRb
+2024-11-14 08:00:49,779 - INFO - Processing rows 0 to 25 for swaps, peptide ELAGIGILTV, weight TCRb
+2024-11-14 08:04:53,665 - INFO - Processing rows 25 to 50 for swaps, peptide ELAGIGILTV, weight TCRb
+2024-11-14 08:08:17,332 - INFO - Processing rows 50 to 75 for swaps, peptide ELAGIGILTV, weight TCRb
+2024-11-14 08:11:27,810 - INFO - Processing rows 75 to 100 for swaps, peptide ELAGIGILTV, weight TCRb
+slurmstepd-compute02: error: *** JOB 4220 ON compute02 CANCELLED AT 2024-11-14T08:14:21 ***

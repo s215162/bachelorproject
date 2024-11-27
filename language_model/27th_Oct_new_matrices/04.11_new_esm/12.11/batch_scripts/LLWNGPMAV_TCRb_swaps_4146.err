@@ -1,0 +1,4 @@
+2024-11-13 19:24:53,708 - INFO - Loading and filtering dataset for peptide LLWNGPMAV
+2024-11-13 19:24:54,176 - INFO - Processing dataset for peptide LLWNGPMAV with weight TCRb
+2024-11-13 19:24:54,179 - INFO - Processing rows 0 to 25 for swaps, peptide LLWNGPMAV, weight TCRb
+/var/lib/slurm/slurmd/job04146/slurm_script: line 14: 118372 Killed                  python3 /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_swaps.py LLWNGPMAV TCRb

@@ -1,0 +1,111 @@
+2024-11-13 19:37:51,785 - INFO - Loading and filtering dataset for peptide YLQPRTFLL
+2024-11-13 19:37:52,445 - INFO - Processing dataset for peptide YLQPRTFLL with weight CDR3b
+2024-11-13 19:37:52,448 - INFO - Processing rows 0 to 25 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:38:23,898 - INFO - Processing rows 25 to 50 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:39:03,237 - INFO - Processing rows 50 to 75 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:39:38,452 - INFO - Processing rows 75 to 100 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:40:09,862 - INFO - Processing rows 100 to 125 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:40:42,838 - INFO - Processing rows 125 to 150 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:41:19,709 - INFO - Processing rows 150 to 175 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:41:52,695 - INFO - Processing rows 175 to 200 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:42:23,899 - INFO - Processing rows 200 to 225 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:42:51,429 - INFO - Processing rows 225 to 250 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:43:26,639 - INFO - Processing rows 250 to 275 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:43:55,231 - INFO - Processing rows 275 to 300 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:44:38,183 - INFO - Processing rows 300 to 325 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:46:05,808 - INFO - Processing rows 325 to 350 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:46:50,906 - INFO - Processing rows 350 to 375 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:47:24,022 - INFO - Processing rows 375 to 400 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:47:54,123 - INFO - Processing rows 400 to 425 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:48:25,747 - INFO - Processing rows 425 to 450 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:48:53,722 - INFO - Processing rows 450 to 475 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:49:27,008 - INFO - Processing rows 475 to 500 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:50:01,623 - INFO - Processing rows 500 to 525 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:50:33,067 - INFO - Processing rows 525 to 550 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:51:11,634 - INFO - Processing rows 550 to 575 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:51:45,048 - INFO - Processing rows 575 to 600 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:52:19,932 - INFO - Processing rows 600 to 625 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:52:53,277 - INFO - Processing rows 625 to 650 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:53:24,915 - INFO - Processing rows 650 to 675 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:53:59,846 - INFO - Processing rows 675 to 700 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:54:31,428 - INFO - Processing rows 700 to 725 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:55:02,895 - INFO - Processing rows 725 to 750 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:55:34,410 - INFO - Processing rows 750 to 775 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:56:04,311 - INFO - Processing rows 775 to 800 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:56:37,555 - INFO - Processing rows 800 to 825 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:57:10,861 - INFO - Processing rows 825 to 850 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:57:44,138 - INFO - Processing rows 850 to 875 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:58:14,026 - INFO - Processing rows 875 to 900 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:58:45,509 - INFO - Processing rows 900 to 925 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:59:15,396 - INFO - Processing rows 925 to 950 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 19:59:45,216 - INFO - Processing rows 950 to 975 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:00:18,550 - INFO - Processing rows 975 to 1000 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:00:51,820 - INFO - Processing rows 1000 to 1025 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:01:23,417 - INFO - Processing rows 1025 to 1050 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:02:00,492 - INFO - Processing rows 1050 to 1075 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:02:35,968 - INFO - Processing rows 1075 to 1100 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:03:06,259 - INFO - Processing rows 1100 to 1125 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:03:40,267 - INFO - Processing rows 1125 to 1150 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:04:08,602 - INFO - Processing rows 1150 to 1175 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:04:42,504 - INFO - Processing rows 1175 to 1200 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:05:14,279 - INFO - Processing rows 1200 to 1225 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:05:44,505 - INFO - Processing rows 1225 to 1250 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:06:18,057 - INFO - Processing rows 1250 to 1275 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:06:50,061 - INFO - Processing rows 1275 to 1300 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:07:25,447 - INFO - Processing rows 1300 to 1325 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:07:55,658 - INFO - Processing rows 1325 to 1350 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:08:27,427 - INFO - Processing rows 1350 to 1375 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:08:57,675 - INFO - Processing rows 1375 to 1400 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:09:27,944 - INFO - Processing rows 1400 to 1425 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:09:58,048 - INFO - Processing rows 1425 to 1450 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:10:42,651 - INFO - Processing rows 1450 to 1475 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:11:14,487 - INFO - Processing rows 1475 to 1500 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:11:46,254 - INFO - Processing rows 1500 to 1525 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:12:18,489 - INFO - Processing rows 1525 to 1550 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:12:53,547 - INFO - Processing rows 1550 to 1575 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:13:27,192 - INFO - Processing rows 1575 to 1600 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:13:59,020 - INFO - Processing rows 1600 to 1625 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:14:32,452 - INFO - Processing rows 1625 to 1650 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:15:04,314 - INFO - Processing rows 1650 to 1675 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:15:37,718 - INFO - Processing rows 1675 to 1700 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:16:11,398 - INFO - Processing rows 1700 to 1725 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:16:44,845 - INFO - Processing rows 1725 to 1750 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:17:18,371 - INFO - Processing rows 1750 to 1775 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:17:51,505 - INFO - Processing rows 1775 to 1800 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:18:22,885 - INFO - Processing rows 1800 to 1825 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:18:52,656 - INFO - Processing rows 1825 to 1850 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:19:24,272 - INFO - Processing rows 1850 to 1875 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:19:54,254 - INFO - Processing rows 1875 to 1900 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:20:27,841 - INFO - Processing rows 1900 to 1925 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:21:02,849 - INFO - Processing rows 1925 to 1950 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:21:36,155 - INFO - Processing rows 1950 to 1975 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:22:05,897 - INFO - Processing rows 1975 to 2000 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:22:37,459 - INFO - Processing rows 2000 to 2025 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:23:05,549 - INFO - Processing rows 2025 to 2050 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:23:37,494 - INFO - Processing rows 2050 to 2075 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:24:08,947 - INFO - Processing rows 2075 to 2100 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:24:39,008 - INFO - Processing rows 2100 to 2125 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:25:14,112 - INFO - Processing rows 2125 to 2150 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:25:44,056 - INFO - Processing rows 2150 to 2175 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:26:17,541 - INFO - Processing rows 2175 to 2200 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:26:51,197 - INFO - Processing rows 2200 to 2225 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:27:22,928 - INFO - Processing rows 2225 to 2250 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:27:52,998 - INFO - Processing rows 2250 to 2275 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:28:26,453 - INFO - Processing rows 2275 to 2300 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:29:03,536 - INFO - Processing rows 2300 to 2325 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:29:37,163 - INFO - Processing rows 2325 to 2350 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:30:10,586 - INFO - Processing rows 2350 to 2375 for swaps, peptide YLQPRTFLL, weight CDR3b
+2024-11-13 20:30:45,876 - INFO - Processing rows 2375 to 2394 for swaps, peptide YLQPRTFLL, weight CDR3b
+Traceback (most recent call last):
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_swaps.py", line 90, in <module>
+    process_sequences(df_filtered, peptide, weight, "swaps")
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_swaps.py", line 82, in process_sequences
+    output_df.insert(0, "raw_index", raw_indexes)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5171, in insert
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (2394) does not match length of index (19)

@@ -1,0 +1,193 @@
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_CDR1a_binders_batch.sh
+Submitted job: ELAGIGILTV_CDR1a_binders
+rm: cannot remove 'ELAGIGILTV_CDR1a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_CDR1b_binders_batch.sh
+Submitted job: ELAGIGILTV_CDR1b_binders
+rm: cannot remove 'ELAGIGILTV_CDR1b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_CDR2a_binders_batch.sh
+Submitted job: ELAGIGILTV_CDR2a_binders
+rm: cannot remove 'ELAGIGILTV_CDR2a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_CDR2b_binders_batch.sh
+Submitted job: ELAGIGILTV_CDR2b_binders
+rm: cannot remove 'ELAGIGILTV_CDR2b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_CDR3a_binders_batch.sh
+Submitted job: ELAGIGILTV_CDR3a_binders
+rm: cannot remove 'ELAGIGILTV_CDR3a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_CDR3b_binders_batch.sh
+Submitted job: ELAGIGILTV_CDR3b_binders
+rm: cannot remove 'ELAGIGILTV_CDR3b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_TCRa_binders_batch.sh
+Submitted job: ELAGIGILTV_TCRa_binders
+rm: cannot remove 'ELAGIGILTV_TCRa_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file ELAGIGILTV_TCRb_binders_batch.sh
+Submitted job: ELAGIGILTV_TCRb_binders
+rm: cannot remove 'ELAGIGILTV_TCRb_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_CDR1a_binders_batch.sh
+Submitted job: GILGFVFTL_CDR1a_binders
+rm: cannot remove 'GILGFVFTL_CDR1a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_CDR1b_binders_batch.sh
+Submitted job: GILGFVFTL_CDR1b_binders
+rm: cannot remove 'GILGFVFTL_CDR1b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_CDR2a_binders_batch.sh
+Submitted job: GILGFVFTL_CDR2a_binders
+rm: cannot remove 'GILGFVFTL_CDR2a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_CDR2b_binders_batch.sh
+Submitted job: GILGFVFTL_CDR2b_binders
+rm: cannot remove 'GILGFVFTL_CDR2b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_CDR3a_binders_batch.sh
+Submitted job: GILGFVFTL_CDR3a_binders
+rm: cannot remove 'GILGFVFTL_CDR3a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_CDR3b_binders_batch.sh
+Submitted job: GILGFVFTL_CDR3b_binders
+rm: cannot remove 'GILGFVFTL_CDR3b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_TCRa_binders_batch.sh
+Submitted job: GILGFVFTL_TCRa_binders
+rm: cannot remove 'GILGFVFTL_TCRa_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GILGFVFTL_TCRb_binders_batch.sh
+Submitted job: GILGFVFTL_TCRb_binders
+rm: cannot remove 'GILGFVFTL_TCRb_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_CDR1a_binders_batch.sh
+Submitted job: GLCTLVAML_CDR1a_binders
+rm: cannot remove 'GLCTLVAML_CDR1a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_CDR1b_binders_batch.sh
+Submitted job: GLCTLVAML_CDR1b_binders
+rm: cannot remove 'GLCTLVAML_CDR1b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_CDR2a_binders_batch.sh
+Submitted job: GLCTLVAML_CDR2a_binders
+rm: cannot remove 'GLCTLVAML_CDR2a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_CDR2b_binders_batch.sh
+Submitted job: GLCTLVAML_CDR2b_binders
+rm: cannot remove 'GLCTLVAML_CDR2b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_CDR3a_binders_batch.sh
+Submitted job: GLCTLVAML_CDR3a_binders
+rm: cannot remove 'GLCTLVAML_CDR3a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_CDR3b_binders_batch.sh
+Submitted job: GLCTLVAML_CDR3b_binders
+rm: cannot remove 'GLCTLVAML_CDR3b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_TCRa_binders_batch.sh
+Submitted job: GLCTLVAML_TCRa_binders
+rm: cannot remove 'GLCTLVAML_TCRa_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file GLCTLVAML_TCRb_binders_batch.sh
+Submitted job: GLCTLVAML_TCRb_binders
+rm: cannot remove 'GLCTLVAML_TCRb_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_CDR1a_binders_batch.sh
+Submitted job: LLWNGPMAV_CDR1a_binders
+rm: cannot remove 'LLWNGPMAV_CDR1a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_CDR1b_binders_batch.sh
+Submitted job: LLWNGPMAV_CDR1b_binders
+rm: cannot remove 'LLWNGPMAV_CDR1b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_CDR2a_binders_batch.sh
+Submitted job: LLWNGPMAV_CDR2a_binders
+rm: cannot remove 'LLWNGPMAV_CDR2a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_CDR2b_binders_batch.sh
+Submitted job: LLWNGPMAV_CDR2b_binders
+rm: cannot remove 'LLWNGPMAV_CDR2b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_CDR3a_binders_batch.sh
+Submitted job: LLWNGPMAV_CDR3a_binders
+rm: cannot remove 'LLWNGPMAV_CDR3a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_CDR3b_binders_batch.sh
+Submitted job: LLWNGPMAV_CDR3b_binders
+rm: cannot remove 'LLWNGPMAV_CDR3b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_TCRa_binders_batch.sh
+Submitted job: LLWNGPMAV_TCRa_binders
+rm: cannot remove 'LLWNGPMAV_TCRa_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file LLWNGPMAV_TCRb_binders_batch.sh
+Submitted job: LLWNGPMAV_TCRb_binders
+rm: cannot remove 'LLWNGPMAV_TCRb_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_CDR1a_binders_batch.sh
+Submitted job: RAKFKQLL_CDR1a_binders
+rm: cannot remove 'RAKFKQLL_CDR1a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_CDR1b_binders_batch.sh
+Submitted job: RAKFKQLL_CDR1b_binders
+rm: cannot remove 'RAKFKQLL_CDR1b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_CDR2a_binders_batch.sh
+Submitted job: RAKFKQLL_CDR2a_binders
+rm: cannot remove 'RAKFKQLL_CDR2a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_CDR2b_binders_batch.sh
+Submitted job: RAKFKQLL_CDR2b_binders
+rm: cannot remove 'RAKFKQLL_CDR2b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_CDR3a_binders_batch.sh
+Submitted job: RAKFKQLL_CDR3a_binders
+rm: cannot remove 'RAKFKQLL_CDR3a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_CDR3b_binders_batch.sh
+Submitted job: RAKFKQLL_CDR3b_binders
+rm: cannot remove 'RAKFKQLL_CDR3b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_TCRa_binders_batch.sh
+Submitted job: RAKFKQLL_TCRa_binders
+rm: cannot remove 'RAKFKQLL_TCRa_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file RAKFKQLL_TCRb_binders_batch.sh
+Submitted job: RAKFKQLL_TCRb_binders
+rm: cannot remove 'RAKFKQLL_TCRb_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_CDR1a_binders_batch.sh
+Submitted job: YLQPRTFLL_CDR1a_binders
+rm: cannot remove 'YLQPRTFLL_CDR1a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_CDR1b_binders_batch.sh
+Submitted job: YLQPRTFLL_CDR1b_binders
+rm: cannot remove 'YLQPRTFLL_CDR1b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_CDR2a_binders_batch.sh
+Submitted job: YLQPRTFLL_CDR2a_binders
+rm: cannot remove 'YLQPRTFLL_CDR2a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_CDR2b_binders_batch.sh
+Submitted job: YLQPRTFLL_CDR2b_binders
+rm: cannot remove 'YLQPRTFLL_CDR2b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_CDR3a_binders_batch.sh
+Submitted job: YLQPRTFLL_CDR3a_binders
+rm: cannot remove 'YLQPRTFLL_CDR3a_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_CDR3b_binders_batch.sh
+Submitted job: YLQPRTFLL_CDR3b_binders
+rm: cannot remove 'YLQPRTFLL_CDR3b_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_TCRa_binders_batch.sh
+Submitted job: YLQPRTFLL_TCRa_binders
+rm: cannot remove 'YLQPRTFLL_TCRa_binders_batch.sh': No such file or directory
+/var/lib/slurm/slurmd/job02655/slurm_script: line 41: : No such file or directory
+sbatch: error: Unable to open file YLQPRTFLL_TCRb_binders_batch.sh
+Submitted job: YLQPRTFLL_TCRb_binders
+rm: cannot remove 'YLQPRTFLL_TCRb_binders_batch.sh': No such file or directory
+All jobs submitted.

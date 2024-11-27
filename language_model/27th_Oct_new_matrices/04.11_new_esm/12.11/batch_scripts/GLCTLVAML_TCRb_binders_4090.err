@@ -1,0 +1,6 @@
+2024-11-13 19:10:20,876 - INFO - Loading and filtering dataset for peptide GLCTLVAML
+2024-11-13 19:10:21,046 - INFO - Processing dataset for peptide GLCTLVAML with weight TCRb
+2024-11-13 19:10:21,049 - INFO - Processing rows 0 to 25 for binders, peptide GLCTLVAML, weight TCRb
+2024-11-13 19:20:32,683 - INFO - Processing rows 25 to 50 for binders, peptide GLCTLVAML, weight TCRb
+2024-11-13 19:30:38,280 - INFO - Processing rows 50 to 75 for binders, peptide GLCTLVAML, weight TCRb
+/var/lib/slurm/slurmd/job04090/slurm_script: line 14: 2138345 Killed                  python3 /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py GLCTLVAML TCRb

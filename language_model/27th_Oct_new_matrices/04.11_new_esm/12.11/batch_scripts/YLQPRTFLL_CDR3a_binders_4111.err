@@ -1,0 +1,31 @@
+2024-11-13 19:15:49,640 - INFO - Loading and filtering dataset for peptide YLQPRTFLL
+2024-11-13 19:15:49,714 - INFO - Processing dataset for peptide YLQPRTFLL with weight CDR3a
+2024-11-13 19:15:49,716 - INFO - Processing rows 0 to 25 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:16:15,105 - INFO - Processing rows 25 to 50 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:16:39,038 - INFO - Processing rows 50 to 75 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:17:04,480 - INFO - Processing rows 75 to 100 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:17:26,963 - INFO - Processing rows 100 to 125 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:17:49,554 - INFO - Processing rows 125 to 150 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:18:14,994 - INFO - Processing rows 150 to 175 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:18:43,743 - INFO - Processing rows 175 to 200 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:19:13,714 - INFO - Processing rows 200 to 225 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:19:42,311 - INFO - Processing rows 225 to 250 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:20:06,234 - INFO - Processing rows 250 to 275 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:20:35,804 - INFO - Processing rows 275 to 300 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:21:03,015 - INFO - Processing rows 300 to 325 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:21:37,397 - INFO - Processing rows 325 to 350 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:22:04,395 - INFO - Processing rows 350 to 375 for binders, peptide YLQPRTFLL, weight CDR3a
+2024-11-13 19:22:28,320 - INFO - Processing rows 375 to 399 for binders, peptide YLQPRTFLL, weight CDR3a
+Traceback (most recent call last):
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py", line 90, in <module>
+    process_sequences(df_filtered, peptide, weight, "binders")
+  File "/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py", line 82, in process_sequences
+    output_df.insert(0, "raw_index", raw_indexes)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5171, in insert
+    value, refs = self._sanitize_column(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "/home/projects2/emison/language_model/miniconda3/envs/esm2_emison/lib/python3.12/site-packages/pandas/core/common.py", line 573, in require_length_match
+    raise ValueError(
+ValueError: Length of values (399) does not match length of index (24)

@@ -1,0 +1,4 @@
+2024-11-13 19:16:23,250 - INFO - Loading and filtering dataset for peptide YLQPRTFLL
+2024-11-13 19:16:23,342 - INFO - Processing dataset for peptide YLQPRTFLL with weight TCRa
+2024-11-13 19:16:23,345 - INFO - Processing rows 0 to 25 for binders, peptide YLQPRTFLL, weight TCRa
+/var/lib/slurm/slurmd/job04113/slurm_script: line 14: 1102701 Killed                  python3 /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py YLQPRTFLL TCRa

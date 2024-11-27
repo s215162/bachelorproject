@@ -1,0 +1,15 @@
+2024-11-14 08:13:41,010 - INFO - Loading and filtering dataset for peptide RAKFKQLL
+2024-11-14 08:13:41,205 - INFO - Processing dataset for peptide RAKFKQLL with weight CDR3b
+2024-11-14 08:13:41,206 - INFO - Processing rows 0 to 25 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:13:44,645 - INFO - Processing rows 25 to 50 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:13:48,044 - INFO - Processing rows 50 to 75 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:13:52,015 - INFO - Processing rows 75 to 100 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:13:55,954 - INFO - Processing rows 100 to 125 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:00,275 - INFO - Processing rows 125 to 150 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:03,914 - INFO - Processing rows 150 to 175 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:07,547 - INFO - Processing rows 175 to 200 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:10,808 - INFO - Processing rows 200 to 225 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:14,285 - INFO - Processing rows 225 to 250 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:17,460 - INFO - Processing rows 250 to 275 for swaps, peptide RAKFKQLL, weight CDR3b
+2024-11-14 08:14:21,052 - INFO - Processing rows 275 to 300 for swaps, peptide RAKFKQLL, weight CDR3b
+slurmstepd-compute03: error: *** JOB 4250 ON compute03 CANCELLED AT 2024-11-14T08:14:21 ***

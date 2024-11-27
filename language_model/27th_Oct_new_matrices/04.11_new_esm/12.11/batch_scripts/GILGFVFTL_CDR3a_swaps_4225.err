@@ -1,0 +1,25 @@
+2024-11-14 08:01:50,844 - INFO - Loading and filtering dataset for peptide GILGFVFTL
+2024-11-14 08:01:51,308 - INFO - Processing dataset for peptide GILGFVFTL with weight CDR3a
+2024-11-14 08:01:51,311 - INFO - Processing rows 0 to 25 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:02:28,316 - INFO - Processing rows 25 to 50 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:02:58,374 - INFO - Processing rows 50 to 75 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:03:33,579 - INFO - Processing rows 75 to 100 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:04:05,409 - INFO - Processing rows 100 to 125 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:04:38,808 - INFO - Processing rows 125 to 150 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:05:14,118 - INFO - Processing rows 150 to 175 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:05:49,455 - INFO - Processing rows 175 to 200 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:06:22,800 - INFO - Processing rows 200 to 225 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:06:56,233 - INFO - Processing rows 225 to 250 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:07:27,744 - INFO - Processing rows 250 to 275 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:08:03,191 - INFO - Processing rows 275 to 300 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:08:32,727 - INFO - Processing rows 300 to 325 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:09:05,900 - INFO - Processing rows 325 to 350 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:09:40,716 - INFO - Processing rows 350 to 375 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:10:15,743 - INFO - Processing rows 375 to 400 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:10:47,305 - INFO - Processing rows 400 to 425 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:11:28,343 - INFO - Processing rows 425 to 450 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:12:10,598 - INFO - Processing rows 450 to 475 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:12:44,001 - INFO - Processing rows 475 to 500 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:13:17,578 - INFO - Processing rows 500 to 525 for swaps, peptide GILGFVFTL, weight CDR3a
+2024-11-14 08:13:49,106 - INFO - Processing rows 525 to 550 for swaps, peptide GILGFVFTL, weight CDR3a
+slurmstepd-node14: error: *** JOB 4225 ON node14 CANCELLED AT 2024-11-14T08:14:21 ***

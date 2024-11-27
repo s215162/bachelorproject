@@ -1,0 +1,18 @@
+2024-11-14 08:15:22,751 - INFO - Loading and filtering dataset for peptide LLWNGPMAV
+2024-11-14 08:15:22,825 - INFO - Processing dataset for peptide LLWNGPMAV with weight TCRb
+2024-11-14 08:15:22,828 - INFO - Processing rows 0 to 25 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:26:03,143 - INFO - Processing rows 25 to 50 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:36:44,985 - INFO - Processing rows 50 to 75 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:47:36,396 - INFO - Processing rows 75 to 100 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:58:12,851 - INFO - Processing rows 100 to 125 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 09:08:44,452 - INFO - Processing rows 125 to 150 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 09:18:48,677 - INFO - Processing rows 150 to 175 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 09:29:12,886 - INFO - Processing rows 175 to 200 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 09:39:31,358 - INFO - Processing rows 200 to 225 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 09:49:55,144 - INFO - Processing rows 225 to 250 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 10:00:13,288 - INFO - Processing rows 250 to 275 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 10:10:38,176 - INFO - Processing rows 275 to 300 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 10:20:57,270 - INFO - Processing rows 300 to 325 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 10:31:16,526 - INFO - Processing rows 325 to 350 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 10:41:36,124 - INFO - Processing rows 350 to 371 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 10:52:48,936 - INFO - Saved to /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/sequence_summed_vectors_binders_LLWNGPMAV_TCRb.csv

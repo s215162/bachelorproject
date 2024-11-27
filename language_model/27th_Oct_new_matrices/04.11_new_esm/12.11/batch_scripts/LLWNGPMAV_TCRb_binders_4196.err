@@ -1,0 +1,8 @@
+2024-11-14 07:54:44,098 - INFO - Loading and filtering dataset for peptide LLWNGPMAV
+2024-11-14 07:54:44,148 - INFO - Processing dataset for peptide LLWNGPMAV with weight TCRb
+2024-11-14 07:54:44,149 - INFO - Processing rows 0 to 25 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 07:59:04,243 - INFO - Processing rows 25 to 50 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:03:33,787 - INFO - Processing rows 50 to 75 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:07:56,851 - INFO - Processing rows 75 to 100 for binders, peptide LLWNGPMAV, weight TCRb
+2024-11-14 08:12:05,625 - INFO - Processing rows 100 to 125 for binders, peptide LLWNGPMAV, weight TCRb
+slurmstepd-node11: error: *** JOB 4196 ON node11 CANCELLED AT 2024-11-14T08:14:21 ***

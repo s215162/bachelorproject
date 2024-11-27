@@ -1,0 +1,5 @@
+2024-11-14 08:02:46,351 - INFO - Loading and filtering dataset for peptide GILGFVFTL
+2024-11-14 08:02:46,877 - INFO - Processing dataset for peptide GILGFVFTL with weight TCRb
+2024-11-14 08:02:46,879 - INFO - Processing rows 0 to 25 for swaps, peptide GILGFVFTL, weight TCRb
+2024-11-14 08:12:19,242 - INFO - Processing rows 25 to 50 for swaps, peptide GILGFVFTL, weight TCRb
+slurmstepd-node03: error: *** JOB 4228 ON node03 CANCELLED AT 2024-11-14T08:14:21 ***

@@ -1,0 +1,14 @@
+2024-11-14 08:15:24,410 - INFO - Loading and filtering dataset for peptide GLCTLVAML
+2024-11-14 08:15:24,510 - INFO - Processing dataset for peptide GLCTLVAML with weight CDR3b
+2024-11-14 08:15:24,512 - INFO - Processing rows 0 to 25 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:15:38,271 - INFO - Processing rows 25 to 50 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:15:52,584 - INFO - Processing rows 50 to 75 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:16:08,020 - INFO - Processing rows 75 to 100 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:16:22,333 - INFO - Processing rows 100 to 125 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:16:38,185 - INFO - Processing rows 125 to 150 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:16:52,454 - INFO - Processing rows 150 to 175 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:17:07,208 - INFO - Processing rows 175 to 200 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:17:22,796 - INFO - Processing rows 200 to 225 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:17:36,985 - INFO - Processing rows 225 to 250 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:17:51,687 - INFO - Processing rows 250 to 271 for binders, peptide GLCTLVAML, weight CDR3b
+2024-11-14 08:19:26,702 - INFO - Saved to /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/sequence_summed_vectors_binders_GLCTLVAML_CDR3b.csv

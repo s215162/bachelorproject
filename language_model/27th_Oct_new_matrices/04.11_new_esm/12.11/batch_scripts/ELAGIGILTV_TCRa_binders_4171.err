@@ -1,0 +1,10 @@
+2024-11-14 07:56:02,736 - INFO - Loading and filtering dataset for peptide ELAGIGILTV
+2024-11-14 07:56:02,817 - INFO - Processing dataset for peptide ELAGIGILTV with weight TCRa
+2024-11-14 07:56:02,819 - INFO - Processing rows 0 to 25 for binders, peptide ELAGIGILTV, weight TCRa
+2024-11-14 07:59:03,843 - INFO - Processing rows 25 to 50 for binders, peptide ELAGIGILTV, weight TCRa
+2024-11-14 08:01:54,199 - INFO - Processing rows 50 to 75 for binders, peptide ELAGIGILTV, weight TCRa
+2024-11-14 08:04:39,843 - INFO - Processing rows 75 to 100 for binders, peptide ELAGIGILTV, weight TCRa
+2024-11-14 08:07:18,812 - INFO - Processing rows 100 to 125 for binders, peptide ELAGIGILTV, weight TCRa
+2024-11-14 08:10:04,545 - INFO - Processing rows 125 to 150 for binders, peptide ELAGIGILTV, weight TCRa
+2024-11-14 08:12:49,145 - INFO - Processing rows 150 to 175 for binders, peptide ELAGIGILTV, weight TCRa
+slurmstepd-compute02: error: *** JOB 4171 ON compute02 CANCELLED AT 2024-11-14T08:14:21 ***
