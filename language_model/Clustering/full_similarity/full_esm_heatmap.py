@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import pairwise_distances
 
 # Directory containing the CSV files
 directory = '/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/AUC/redo'
@@ -37,39 +38,33 @@ final_df.to_csv(output_file, index=False)
 
 print(f"Concatenation complete! Saved to {output_file}")
 
-# Pivot the data to create a matrix of sum_max_similarity for each peptide
-# The index can be something like 'binder' or 'TCR ID', depending on the structure of your data
-pivot_data = final_df.pivot_table(index='binder', columns='peptide', values='sum_max_similarity', aggfunc='mean')
+# Load the concatenated data
+data = pd.read_csv(output_file)
 
-# Optional: Normalize the data (if needed) using MinMaxScaler (scales values to [0, 1])
-# scaler = MinMaxScaler()
-# pivot_data_scaled = scaler.fit_transform(pivot_data)
+# Extract the 'sum_max_similarity' values for the pairwise similarity calculation
+# You need to make sure you have 'raw_index', 'peptide', and 'sum_max_similarity' columns in your data
+data_for_similarity = data.pivot_table(index='raw_index', columns='peptide', values='sum_max_similarity')
 
-# Convert back to a DataFrame for the heatmap
-# pivot_data_scaled_df = pd.DataFrame(pivot_data_scaled, columns=pivot_data.columns, index=pivot_data.index)
-pivot_data_df = pd.DataFrame(pivot_data, columns=pivot_data.columns, index=pivot_data.index)
+# Ensure that we have the peptide columns correctly formatted
+# You may want to normalize your data (if desired) using MinMaxScaler
+scaler = MinMaxScaler()
+data_for_similarity_scaled = scaler.fit_transform(data_for_similarity)
 
-# Generate a custom color palette for peptides
-peptide_colors = sns.color_palette("Set2", len(pivot_data.columns))  # You can change the palette
-peptide_color_map = dict(zip(pivot_data.columns, peptide_colors))
+# Calculate the pairwise similarity (or distance) between rows
+similarity_matrix = pairwise_distances(data_for_similarity_scaled, metric='euclidean')  # Use 'cosine' or 'manhattan' if needed
 
-# Create a heatmap
-plt.figure(figsize=(12, 8))
-sns.heatmap(
-    pivot_data_df,
-    annot=True,  # Annotate the cells with the data
-    cmap=sns.color_palette(peptide_colors),  # Use the custom color palette
-    fmt='.2f',  # Format values to two decimal places
-    cbar_kws={'label': 'Similarity Score'},  # Add a color bar
-    xticklabels=pivot_data.columns,  # Show peptide names on the x-axis
-    yticklabels=pivot_data.index  # Show binder names on the y-axis
-)
+# Convert the similarity matrix back to a DataFrame
+similarity_df = pd.DataFrame(similarity_matrix, index=data_for_similarity.index, columns=data_for_similarity.index)
+output_file2 = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/sim_matrix.csv'
+final_df.to_csv(output_file2, index=False)
 
-# Add a title and labels
-plt.title('Heatmap of Peptide Data for sum of ESM2 values for full tcra+b sequence')
-plt.xlabel('Peptide')
-plt.ylabel('Binder')
+# Plot the heatmap of the similarity matrix
+plt.figure(figsize=(10, 8))
+sns.heatmap(similarity_df, annot=False, cmap='coolwarm', linewidths=0.5, square=True, cbar_kws={'label': 'Similarity (scaled)'})
+plt.title('Pairwise Similarity Matrix Heatmap')
+plt.xlabel('Raw Index')
+plt.ylabel('Raw Index')
 
-# Save the heatmap as an image file
-output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/heatmap_peptide_clusters_unique_colors.png'
+# Save the heatmap
+output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/similarity_matrix_heatmap.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
