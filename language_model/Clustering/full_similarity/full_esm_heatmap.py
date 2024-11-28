@@ -4,38 +4,38 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
-# Directory containing the CSV files
-directory = '/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/AUC/redo'
+# # Directory containing the CSV files
+# directory = '/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/AUC/redo'
 
-# List of files matching the pattern {peptide}_full.csv
-files = [f for f in os.listdir(directory) if f.endswith('_full.csv')]
+# # List of files matching the pattern {peptide}_full.csv
+# files = [f for f in os.listdir(directory) if f.endswith('_full.csv')]
 
-# List to hold dataframes
-dataframes = []
+# # List to hold dataframes
+# dataframes = []
 
-# Iterate over the files
-for file in files:
-    # Read the current file
-    file_path = os.path.join(directory, file)
-    df = pd.read_csv(file_path)
+# # Iterate over the files
+# for file in files:
+#     # Read the current file
+#     file_path = os.path.join(directory, file)
+#     df = pd.read_csv(file_path)
     
-    # Extract peptide name from the file name (assuming the file is named {peptide}_full.csv)
-    peptide_name = file.split('_')[0]
+#     # Extract peptide name from the file name (assuming the file is named {peptide}_full.csv)
+#     peptide_name = file.split('_')[0]
     
-    # Add a new column 'peptide' with the peptide name
-    df['peptide'] = peptide_name
+#     # Add a new column 'peptide' with the peptide name
+#     df['peptide'] = peptide_name
     
-    # Append the dataframe to the list
-    dataframes.append(df)
+#     # Append the dataframe to the list
+#     dataframes.append(df)
 
-# Concatenate all dataframes into one
-final_df = pd.concat(dataframes, ignore_index=True)
+# # Concatenate all dataframes into one
+# final_df = pd.concat(dataframes, ignore_index=True)
 
 # Save the concatenated file with peptides included
 output_file = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/concatenated_full_file.csv'
-final_df.to_csv(output_file, index=False)
+# final_df.to_csv(output_file, index=False)
 
-print(f"Concatenation complete! Saved to {output_file}")
+# print(f"Concatenation complete! Saved to {output_file}")
 
 # Load the concatenated data
 data = pd.read_csv(output_file)
@@ -59,7 +59,9 @@ difference_matrix = data_for_similarity.values[:, None, :] - data_for_similarity
 difference_matrix = abs(difference_matrix)
 
 # Convert the difference matrix to a DataFrame
-difference_df = pd.DataFrame(difference_matrix.reshape(-1, data_for_similarity.shape[1]), index=data_for_similarity.index, columns=data_for_similarity.columns)
+difference_df = pd.DataFrame(difference_matrix.reshape(data_for_similarity.shape[0], -1), 
+                             index=data_for_similarity.index, 
+                             columns=data_for_similarity.columns)
 
 # Save the difference matrix
 output_file2 = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/difference_matrix.csv'
@@ -75,3 +77,6 @@ plt.ylabel('Peptide')
 # Save the heatmap
 output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/difference_matrix_heatmap.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
+
+print(f"Difference matrix saved to {output_file2}")
+print(f"Heatmap saved to {output_path}")
