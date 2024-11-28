@@ -1,4 +1,0 @@
-2024-11-27 16:36:05,883 - INFO - Loading and filtering dataset for peptide RAKFKQLL
-2024-11-27 16:36:06,179 - INFO - Processing dataset for peptide RAKFKQLL with weight TCRb
-2024-11-27 16:36:06,181 - INFO - Processing rows 0 to 25 for swaps, peptide RAKFKQLL, weight TCRb
-slurmstepd-node11: error: *** JOB 7288 ON node11 CANCELLED AT 2024-11-27T16:39:18 ***
