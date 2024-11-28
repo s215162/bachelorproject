@@ -73,4 +73,3 @@ plt.ylabel('Binder')
 # Save the heatmap as an image file
 output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/heatmap_peptide_clusters_unique_colors.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
-plt.show()
