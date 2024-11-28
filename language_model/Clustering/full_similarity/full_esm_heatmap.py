@@ -3,7 +3,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import pairwise_distances
 
 # Directory containing the CSV files
 directory = '/net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/AUC/redo'
@@ -45,26 +44,34 @@ data = pd.read_csv(output_file)
 # You need to make sure you have 'raw_index', 'peptide', and 'sum_max_similarity' columns in your data
 data_for_similarity = data.pivot_table(index='raw_index', columns='peptide', values='sum_max_similarity')
 
-# Ensure that we have the peptide columns correctly formatted
-# You may want to normalize your data (if desired) using MinMaxScaler
-scaler = MinMaxScaler()
-data_for_similarity_scaled = scaler.fit_transform(data_for_similarity)
+# Ensure that all columns contain numeric data (this is crucial for distance calculation)
+data_for_similarity = data_for_similarity.apply(pd.to_numeric, errors='coerce')
 
-# Calculate the pairwise similarity (or distance) between rows
-similarity_matrix = pairwise_distances(data_for_similarity_scaled, metric='euclidean')  # Use 'cosine' or 'manhattan' if needed
+# Handle any potential NaN values resulting from non-numeric columns, if necessary
+# However, you mentioned no NaNs in your data, so this should be avoided.
+data_for_similarity = data_for_similarity.fillna(0)
 
-# Convert the similarity matrix back to a DataFrame
-similarity_df = pd.DataFrame(similarity_matrix, index=data_for_similarity.index, columns=data_for_similarity.index)
-output_file2 = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/sim_matrix.csv'
-final_df.to_csv(output_file2, index=False)
+# Calculate the pairwise absolute differences
+# Using broadcasting to subtract each pair of rows from one another
+difference_matrix = data_for_similarity.values[:, None, :] - data_for_similarity.values[None, :, :]
 
-# Plot the heatmap of the similarity matrix
+# Calculate the absolute difference
+difference_matrix = abs(difference_matrix)
+
+# Convert the difference matrix to a DataFrame
+difference_df = pd.DataFrame(difference_matrix.reshape(-1, data_for_similarity.shape[1]), index=data_for_similarity.index, columns=data_for_similarity.columns)
+
+# Save the difference matrix
+output_file2 = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/difference_matrix.csv'
+difference_df.to_csv(output_file2)
+
+# Plot the heatmap of the difference matrix
 plt.figure(figsize=(10, 8))
-sns.heatmap(similarity_df, annot=False, cmap='coolwarm', linewidths=0.5, square=True, cbar_kws={'label': 'Similarity (scaled)'})
-plt.title('Pairwise Similarity Matrix Heatmap')
-plt.xlabel('Raw Index')
-plt.ylabel('Raw Index')
+sns.heatmap(difference_df, annot=False, cmap='coolwarm', linewidths=0.5, square=True, cbar_kws={'label': 'Difference'})
+plt.title('Pairwise Difference Matrix Heatmap')
+plt.xlabel('Peptide')
+plt.ylabel('Peptide')
 
 # Save the heatmap
-output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/similarity_matrix_heatmap.png'
+output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/difference_matrix_heatmap.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
