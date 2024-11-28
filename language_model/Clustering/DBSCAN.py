@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.cluster import DBSCAN
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler  # Import MinMaxScaler instead
 import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score
 import seaborn as sns
@@ -8,8 +8,8 @@ import seaborn as sns
 # Load your dataset
 data = pd.read_csv('/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/tcra_tcrb_similarity.csv')
 
-# Normalize the sum_max_similarity
-scaler = StandardScaler()
+# Normalize the sum_max_similarity using MinMaxScaler
+scaler = MinMaxScaler()
 data_scaled = scaler.fit_transform(data[['sum_max_similarity']])
 
 # Run DBSCAN
