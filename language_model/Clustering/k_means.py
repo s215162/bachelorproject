@@ -6,7 +6,8 @@ from sklearn.metrics import silhouette_score, confusion_matrix
 import seaborn as sns
 
 # Load your dataset
-data = pd.read_csv('your_data.csv')
+data = pd.read_csv('/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/tcra_tcrb_similarity.csv')
+
 
 # Normalize the sum_max_similarity for both binders and non-binders
 scaler = StandardScaler()
@@ -26,9 +27,9 @@ plt.xlabel('Number of clusters (k)')
 plt.ylabel('Silhouette Score')
 plt.title('Silhouette Score vs. Number of Clusters')
 # Save the plot as an image file
-output_path = 'clustering_binders_vs_nonbinders.png'  # Change as needed
+output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/silhouetteScore_against_no_of_Clusters.png'  # Change as needed
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
-plt.close()  # Close the figure to free memory
+plt.close()  # Close the figure 
 
 # Perform clustering with the best k
 best_k = silhouette_scores.index(max(silhouette_scores)) + 2  # Best k
@@ -41,9 +42,9 @@ sns.scatterplot(x=data['sum_max_similarity'], y=[0] * len(data), hue=data['binde
 plt.xlabel('Sum Max Similarity')
 plt.title(f'Clustering with {best_k} Clusters (Binders vs. Non-binders)')
 # Save the plot as an image file
-output_path = 'clustering_binders_vs_nonbinders.png'  # Change as needed
+output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/clustering_best_k.png'  # Change as needed
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
-plt.close()  # Close the figure to free memory
+plt.close()  # Close the figure 
 
 # Check how well the clusters segregate binders and non-binders
 cluster_purity = []
@@ -62,6 +63,6 @@ plt.xlabel('Cluster')
 plt.ylabel('Actual Binder Status')
 plt.title('Confusion Matrix of Clustering vs. Actual Binder Labels')
 # Save the plot as an image file
-output_path = 'clustering_binders_vs_nonbinders.png'  # Change as needed
+output_path = '/net/mimer/mnt/tank/projects2/emison/language_model/Clustering/full_similarity/confusion_matrix.png'  # Change as needed
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # High-quality save
-plt.close()  # Close the figure to free memory
+plt.close()  # Close figure
