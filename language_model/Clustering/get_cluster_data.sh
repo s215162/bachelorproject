@@ -18,3 +18,4 @@ for file in $INPUT_DIR/*_full.csv; do
 done
 
 echo "Combined file saved to: $OUTPUT_FILE"
+

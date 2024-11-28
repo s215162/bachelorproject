@@ -13,7 +13,7 @@ scaler = StandardScaler()
 data_scaled = scaler.fit_transform(data[['sum_max_similarity']])
 
 # Run DBSCAN
-dbscan = DBSCAN(eps=0.01, min_samples=5)  # Adjust eps and min_samples as needed
+dbscan = DBSCAN(eps=0.0001, min_samples=5)  # Adjust eps and min_samples as needed
 data['cluster'] = dbscan.fit_predict(data_scaled)
 
 # Visualize clusters with binders and non-binders
