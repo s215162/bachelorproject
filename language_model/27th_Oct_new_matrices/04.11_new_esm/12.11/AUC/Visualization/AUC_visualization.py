@@ -102,8 +102,8 @@ for i in range(num_segments):
 ax.set_ylim(0, 1)
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel("AUC 0.1 for ESM2 mean ")
-ax.set_title("AUC 0.1 Values for Each Peptide Segment")
+ax.set_ylabel("AUC for ESM2 mean ")
+ax.set_title("AUC Values for Each Peptide Segment")
 ax.set_xticks(x + width * (num_segments - 1) / 2)
 ax.set_xticklabels(peptide_names)
 ax.legend(title="Segments")
