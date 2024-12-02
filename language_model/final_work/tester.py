@@ -15,7 +15,7 @@ peptide = sys.argv[1]
 
 # Setup logging
 log_file = (
-    "/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/TEST_full_ESM_"
+    "/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/TEST_no_idx_full_ESM_"
     + peptide
     + "_matrix_cdr_processing.log"
 )
@@ -57,7 +57,7 @@ def process_sequences(df_filtered, peptide):
     raw_indexes = []
     batch_size = 5  # Adjust based on memory capacity
     for start in range(0, batch_size):
-        end = min(start + batch_size, len(df_filtered))
+        end = min(start + batch_size)
         df_subset = df_filtered.iloc[start:end]
 
         data = [(row["peptide_x"], row["tcr_full"]) for _, row in df_subset.iterrows()]
