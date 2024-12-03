@@ -4,11 +4,10 @@ from sklearn.metrics import roc_curve
 import matplotlib.pyplot as plt
 import os
 import logging
-import sys
 from scipy import interp
 
-def setup_logging(peptide):
-    log_file = f"/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/auc01_calculation_{peptide}.log"
+def setup_logging():
+    log_file = "/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/auc01_calculation.log"
     logging.basicConfig(
         filename=log_file,
         filemode="a",
@@ -35,9 +34,9 @@ def calculate_auc01(y_true, y_scores):
     
     return auc01
 
-def calculate_aucs01(peptide):
+def calculate_aucs01(peptide, base_path):
     """Calculate AUC0.1 scores for all similarity measures."""
-    base_dir = f"/net/mimer/mnt/tank/projects2/emison/language_model/final_work/cdr_embeddings_{peptide}"
+    base_dir = os.path.join(base_path, f"cdr_embeddings_{peptide}")
     results = []
     
     # 1. Individual CDR3 regions
@@ -52,9 +51,9 @@ def calculate_aucs01(peptide):
                     'Weight': f'Individual_{region}',
                     'AUC01_Score': auc01_score
                 })
-                logging.info(f"AUC0.1 score for {region}: {auc01_score}")
+                logging.info(f"AUC0.1 score for {peptide} {region}: {auc01_score}")
             except Exception as e:
-                logging.error(f"Error calculating AUC0.1 for {region}: {e}")
+                logging.error(f"Error calculating AUC0.1 for {peptide} {region}: {e}")
     
     # 2. Combined CDR3
     cdr3_path = os.path.join(base_dir, f"{peptide}_CDR3_combined_similarities.csv")
@@ -67,9 +66,9 @@ def calculate_aucs01(peptide):
                 'Weight': 'Combined_CDR3',
                 'AUC01_Score': auc01_score
             })
-            logging.info(f"AUC0.1 score for Combined CDR3: {auc01_score}")
+            logging.info(f"AUC0.1 score for {peptide} Combined CDR3: {auc01_score}")
         except Exception as e:
-            logging.error(f"Error calculating AUC0.1 for Combined CDR3: {e}")
+            logging.error(f"Error calculating AUC0.1 for {peptide} Combined CDR3: {e}")
     
     # 3. All CDRs combined
     all_cdr_path = os.path.join(base_dir, f"{peptide}_all_CDR_combined_similarities.csv")
@@ -83,7 +82,6 @@ def calculate_aucs01(peptide):
                 'Weight': 'All_CDR_Unweighted',
                 'AUC01_Score': auc01_score_unweighted
             })
-            logging.info(f"AUC0.1 score for All CDR Unweighted: {auc01_score_unweighted}")
             
             # Weighted sum
             auc01_score_weighted = calculate_auc01(df['binder'], df['weighted_sum'])
@@ -92,32 +90,21 @@ def calculate_aucs01(peptide):
                 'Weight': 'All_CDR_Weighted',
                 'AUC01_Score': auc01_score_weighted
             })
-            logging.info(f"AUC0.1 score for All CDR Weighted: {auc01_score_weighted}")
             
-            # Individual CDRs from the all_CDR file
-            for region in ['CDR1a', 'CDR1b', 'CDR2a', 'CDR2b', 'CDR3a', 'CDR3b']:
-                auc01_score = calculate_auc01(df['binder'], df[f'max_similarity_{region}'])
-                results.append({
-                    'Peptide': peptide,
-                    'Weight': f'From_All_{region}',
-                    'AUC01_Score': auc01_score
-                })
-                logging.info(f"AUC0.1 score for {region} from all CDR file: {auc01_score}")
-                
         except Exception as e:
-            logging.error(f"Error calculating AUC0.1 for All CDRs: {e}")
+            logging.error(f"Error calculating AUC0.1 for {peptide} All CDRs: {e}")
     
-    # Save results
+    # Save individual peptide results
     output_file = os.path.join(base_dir, f"{peptide}_auc01_scores.csv")
     pd.DataFrame(results).to_csv(output_file, index=False)
-    logging.info(f"Saved AUC0.1 scores to {output_file}")
+    logging.info(f"Saved AUC0.1 scores for {peptide} to {output_file}")
     
     return results
 
-def create_combined_auc01_visualization(peptides, base_path):
-    """Create and save bar plot of AUC0.1 scores for multiple peptides with averages."""
-    # Initialize list to store all peptides' data
-    all_data = []
+def create_combined_auc01_visualization(all_results, base_path):
+    """Create and save bar plot of AUC0.1 scores for all peptides with averages."""
+    # Convert results to DataFrame
+    combined_df = pd.DataFrame(all_results)
     
     # Mapping for the order and names we want
     name_mapping = {
@@ -128,20 +115,9 @@ def create_combined_auc01_visualization(peptides, base_path):
         'Individual_CDR3a': 'CDR3 alpha'
     }
     
-    # Load data for each peptide
-    for peptide in peptides:
-        peptide_dir = os.path.join(base_path, f"cdr_embeddings_{peptide}")
-        auc_file = os.path.join(peptide_dir, f"{peptide}_auc01_scores.csv")
-        
-        if os.path.exists(auc_file):
-            df = pd.read_csv(auc_file)
-            df = df[df['Weight'].isin(name_mapping.keys())].copy()
-            df['Weight'] = df['Weight'].map(name_mapping)
-            df['Peptide'] = peptide
-            all_data.append(df)
-    
-    # Combine all data
-    combined_df = pd.concat(all_data, ignore_index=True)
+    # Filter and rename
+    combined_df = combined_df[combined_df['Weight'].isin(name_mapping.keys())].copy()
+    combined_df['Weight'] = combined_df['Weight'].map(name_mapping)
     
     # Calculate average scores across peptides
     avg_scores = combined_df.groupby('Weight')['AUC01_Score'].mean().reset_index()
@@ -198,16 +174,29 @@ def create_combined_auc01_visualization(peptides, base_path):
     plt.close()
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <peptide>")
-        sys.exit(1)
+    peptides = ["ELAGIGILTV", "GILGFVFTL", "GLCTLVAML", "LLWNGPMAV", "RAKFKQLL", "YLQPRTFLL"]
+    base_path = "/net/mimer/mnt/tank/projects2/emison/language_model/final_work"
+    setup_logging()
     
-    peptide = sys.argv[1]
-    setup_logging(peptide)
+    # Store all results
+    all_results = []
     
     try:
-        results = calculate_aucs01(peptide)
-        logging.info("AUC0.1 calculation completed successfully")
+        # Process each peptide
+        for peptide in peptides:
+            logging.info(f"Processing peptide: {peptide}")
+            results = calculate_aucs01(peptide, base_path)
+            all_results.extend(results)
+        
+        # Create visualization
+        create_combined_auc01_visualization(all_results, base_path)
+        logging.info("Processing completed for all peptides")
+        
+        # Save combined results
+        combined_output = os.path.join(base_path, "combined_auc01_scores.csv")
+        pd.DataFrame(all_results).to_csv(combined_output, index=False)
+        logging.info("Saved combined results")
+        
     except Exception as e:
         logging.error(f"An error occurred: {e}")
         raise
