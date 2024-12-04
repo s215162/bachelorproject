@@ -10,4 +10,4 @@ source /home/projects2/emison/language_model/miniconda3/bin/activate
 conda activate esm2_emison
 
 # Run the Python script for the given peptide
-python3 /net/mimer/mnt/tank/projects2/emison/language_model/final_work/auc_0.1_calculation_visualization.py
+python3 /net/mimer/mnt/tank/projects2/emison/language_model/final_work/optimized_esm_matrix.py ELAGIGILTV 
