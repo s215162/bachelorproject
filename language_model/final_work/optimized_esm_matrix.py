@@ -7,7 +7,7 @@ import sys
 import numpy as np
 
 def setup_logging(peptide):
-    log_file = f"/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/final_full_ESM_{peptide}_matrix_cdr_processing.log"
+    log_file = f"/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/optimized_final_full_ESM_{peptide}_matrix_cdr_processing.log"
     logging.basicConfig(
         filename=log_file,
         filemode="a",
