@@ -4,7 +4,7 @@ from sklearn.metrics import roc_curve
 import matplotlib.pyplot as plt
 import os
 import logging
-from scipy import interp
+from scipy.interpolate import interp1d
 
 def setup_logging():
     log_file = "/net/mimer/mnt/tank/projects2/emison/language_model/final_work/logs/auc01_calculation.log"
@@ -24,9 +24,12 @@ def calculate_auc01(y_true, y_scores):
     """Calculate AUC0.1 score."""
     fpr, tpr, _ = roc_curve(y_true, y_scores)
     
+    # Create interpolation function
+    interpolator = interp1d(fpr, tpr, kind='linear', bounds_error=False)
+    
     # Interpolate TPR at FPR = 0.1
     specific_fpr = 0.1
-    specific_tpr = interp(specific_fpr, fpr, tpr)
+    specific_tpr = float(interpolator(specific_fpr))
     
     # Calculate AUC up to FPR = 0.1
     mask = fpr <= specific_fpr
@@ -169,7 +172,7 @@ def create_combined_auc01_visualization(all_results, base_path):
     plt.tight_layout()
     
     # Save the plot
-    output_path = os.path.join(base_path, "combined_auc01_visualization.png")
+    output_path = os.path.join("/net/mimer/mnt/tank/projects2/emison/language_model/final_work/combined_auc01_visualization.png")
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
 
