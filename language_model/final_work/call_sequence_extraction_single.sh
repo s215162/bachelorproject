@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=sequence_summing
+#SBATCH --job-name=sequence_extraction
 #SBATCH --output=logs/%x_%j.out    # Log file (one per job)
 #SBATCH --error=logs/%x_%j.err     # Error log
 #SBATCH --time=1-00:00:00          # Max runtime (1 days)

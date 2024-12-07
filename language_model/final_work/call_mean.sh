@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=esm_matrix
+#SBATCH --job-name=esm_mean
 #SBATCH --output=logs/%x_%j.out    # Log file (one per job)
 #SBATCH --error=logs/%x_%j.err     # Error log
 #SBATCH --time=7-00:00:00          # Max runtime (7 days)
