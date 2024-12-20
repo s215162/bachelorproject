@@ -1,8 +1,0 @@
-2024-11-14 07:58:32,713 - INFO - Loading and filtering dataset for peptide RAKFKQLL
-2024-11-14 07:58:32,850 - INFO - Processing dataset for peptide RAKFKQLL with weight TCRa
-2024-11-14 07:58:32,852 - INFO - Processing rows 0 to 25 for binders, peptide RAKFKQLL, weight TCRa
-2024-11-14 08:03:11,174 - INFO - Processing rows 25 to 50 for binders, peptide RAKFKQLL, weight TCRa
-2024-11-14 08:06:35,210 - INFO - Processing rows 50 to 75 for binders, peptide RAKFKQLL, weight TCRa
-2024-11-14 08:09:22,070 - INFO - Processing rows 75 to 100 for binders, peptide RAKFKQLL, weight TCRa
-2024-11-14 08:12:03,118 - INFO - Processing rows 100 to 125 for binders, peptide RAKFKQLL, weight TCRa
-slurmstepd-compute02: error: *** JOB 4203 ON compute02 CANCELLED AT 2024-11-14T08:14:21 ***

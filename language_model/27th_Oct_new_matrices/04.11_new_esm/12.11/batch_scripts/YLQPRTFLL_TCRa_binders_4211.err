@@ -1,7 +1,0 @@
-2024-11-14 07:59:16,926 - INFO - Loading and filtering dataset for peptide YLQPRTFLL
-2024-11-14 07:59:16,988 - INFO - Processing dataset for peptide YLQPRTFLL with weight TCRa
-2024-11-14 07:59:16,990 - INFO - Processing rows 0 to 25 for binders, peptide YLQPRTFLL, weight TCRa
-2024-11-14 08:03:27,574 - INFO - Processing rows 25 to 50 for binders, peptide YLQPRTFLL, weight TCRa
-2024-11-14 08:07:12,494 - INFO - Processing rows 50 to 75 for binders, peptide YLQPRTFLL, weight TCRa
-2024-11-14 08:11:00,025 - INFO - Processing rows 75 to 100 for binders, peptide YLQPRTFLL, weight TCRa
-slurmstepd-node08: error: *** JOB 4211 ON node08 CANCELLED AT 2024-11-14T08:14:21 ***

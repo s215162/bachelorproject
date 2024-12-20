@@ -1,7 +1,0 @@
-2024-11-13 19:13:19,404 - INFO - Loading and filtering dataset for peptide RAKFKQLL
-2024-11-13 19:13:19,478 - INFO - Processing dataset for peptide RAKFKQLL with weight TCRb
-2024-11-13 19:13:19,481 - INFO - Processing rows 0 to 25 for binders, peptide RAKFKQLL, weight TCRb
-2024-11-13 19:23:39,368 - INFO - Processing rows 25 to 50 for binders, peptide RAKFKQLL, weight TCRb
-2024-11-13 19:33:36,962 - INFO - Processing rows 50 to 75 for binders, peptide RAKFKQLL, weight TCRb
-2024-11-13 19:43:42,289 - INFO - Processing rows 75 to 100 for binders, peptide RAKFKQLL, weight TCRb
-/var/lib/slurm/slurmd/job04106/slurm_script: line 14: 2138420 Killed                  python3 /net/mimer/mnt/tank/projects2/emison/language_model/27th_Oct_new_matrices/04.11_new_esm/12.11/run_esm_binders.py RAKFKQLL TCRb

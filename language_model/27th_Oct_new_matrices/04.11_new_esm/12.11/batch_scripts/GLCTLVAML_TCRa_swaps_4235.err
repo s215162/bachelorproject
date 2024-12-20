@@ -1,5 +1,0 @@
-2024-11-14 08:05:33,791 - INFO - Loading and filtering dataset for peptide GLCTLVAML
-2024-11-14 08:05:34,265 - INFO - Processing dataset for peptide GLCTLVAML with weight TCRa
-2024-11-14 08:05:34,267 - INFO - Processing rows 0 to 25 for swaps, peptide GLCTLVAML, weight TCRa
-2024-11-14 08:11:04,417 - INFO - Processing rows 25 to 50 for swaps, peptide GLCTLVAML, weight TCRa
-slurmstepd-compute02: error: *** JOB 4235 ON compute02 CANCELLED AT 2024-11-14T08:14:21 ***

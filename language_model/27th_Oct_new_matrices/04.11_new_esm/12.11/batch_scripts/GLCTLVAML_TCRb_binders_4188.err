@@ -1,5 +1,0 @@
-2024-11-14 07:56:48,373 - INFO - Loading and filtering dataset for peptide GLCTLVAML
-2024-11-14 07:56:48,469 - INFO - Processing dataset for peptide GLCTLVAML with weight TCRb
-2024-11-14 07:56:48,472 - INFO - Processing rows 0 to 25 for binders, peptide GLCTLVAML, weight TCRb
-2024-11-14 08:06:48,529 - INFO - Processing rows 25 to 50 for binders, peptide GLCTLVAML, weight TCRb
-slurmstepd-node05: error: *** JOB 4188 ON node05 CANCELLED AT 2024-11-14T08:14:21 ***

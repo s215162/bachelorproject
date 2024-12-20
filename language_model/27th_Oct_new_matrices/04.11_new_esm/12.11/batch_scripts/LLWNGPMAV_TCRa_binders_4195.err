@@ -1,7 +1,0 @@
-2024-11-14 07:56:54,885 - INFO - Loading and filtering dataset for peptide LLWNGPMAV
-2024-11-14 07:56:55,014 - INFO - Processing dataset for peptide LLWNGPMAV with weight TCRa
-2024-11-14 07:56:55,017 - INFO - Processing rows 0 to 25 for binders, peptide LLWNGPMAV, weight TCRa
-2024-11-14 08:02:36,571 - INFO - Processing rows 25 to 50 for binders, peptide LLWNGPMAV, weight TCRa
-2024-11-14 08:08:20,240 - INFO - Processing rows 50 to 75 for binders, peptide LLWNGPMAV, weight TCRa
-2024-11-14 08:14:03,215 - INFO - Processing rows 75 to 100 for binders, peptide LLWNGPMAV, weight TCRa
-slurmstepd-node09: error: *** JOB 4195 ON node09 CANCELLED AT 2024-11-14T08:14:21 ***
